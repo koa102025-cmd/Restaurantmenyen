@@ -21,8 +21,8 @@ export default function Menu() {
 						className={styles.logo}
 					/>
 					<h1>
-						<span class="daily">Daily</span>
-						<span class="go">Go</span>
+						<span className={styles.daily}>Daily</span>
+						<span className={styles.go}>Go</span>
 					</h1>
 				</div>
 

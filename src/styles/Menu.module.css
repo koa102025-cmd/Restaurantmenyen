@@ -80,19 +80,6 @@
 	opacity: 0.75;
 }
 
-.daily {
-	font-weight: 900;
-	font-size: 3rem;
-	color: #1a1a1a;
-}
-
-.go {
-	display: block;
-	font-weight: 300;
-	font-size: 0.8rem;
-	color: #ff4757;
-}
-
 .menuContainer {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
