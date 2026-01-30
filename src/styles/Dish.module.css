@@ -1,0 +1,35 @@
+.dishCard {
+	height: 15rem;
+	background-color: white;
+	border-radius: 0.3rem;
+	padding: 1rem 1rem;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.dishCard h2 {
+	margin: 0.3rem 0rem;
+	color: #435357;
+	font-size: 1.7rem;
+}
+
+.pris {
+	font-weight: bold;
+	color: #27ae60;
+	font-size: 1.4rem;
+
+	margin-bottom: 0.8rem;
+}
+
+.ingredienser {
+	max-width: 22rem;
+	color: #636e72;
+	font-size: 1.1rem;
+	margin-bottom: 1.6rem;
+}
+
+.kategori {
+	color: #8c989c;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
