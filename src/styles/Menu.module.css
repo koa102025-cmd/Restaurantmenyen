@@ -1,23 +1,96 @@
-.logo {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.left {
+	color: #323f42;
+}
+
+.left,
+.right {
+	width: 15rem;
+
+	position: relative;
+	padding-top: 1.5rem;
+	transform: translateY(2rem);
+
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+}
+
+.left::before,
+.right::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	width: 40%;
+	height: 1px;
+	background-color: white;
+	border-radius: 2px;
+}
+
+.center {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	flex-shrink: 0;
 
-	margin-top: 2rem;
+	width: 14rem;
+	height: 14rem;
+	background-color: white;
+	border: 1px solid #c6c6c6;
+	border-radius: 50%;
+
+	margin: 2rem auto;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 
-.logo img {
+.right {
+	width: 20rem;
+	color: #323f42;
+	text-align: right;
+}
+.right::before {
+	right: 0;
+}
+.logo {
 	width: 3.5rem;
 	height: 3.5rem;
 	opacity: 0.8;
 	margin-bottom: 1rem;
 }
 
-.logo h1 {
-	font-size: 2.7rem;
-	margin-bottom: 1rem;
-	color: #1b2629;
+.header h1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	width: fit-content;
+	margin: 0 auto;
+
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	line-height: 0.8;
+	opacity: 0.75;
+}
+
+.daily {
+	font-weight: 900;
+	font-size: 3rem;
+	color: #1a1a1a;
+}
+
+.go {
+	display: block;
+	font-weight: 300;
+	font-size: 0.8rem;
+	color: #ff4757;
 }
 
 .menuContainer {
@@ -27,4 +100,30 @@
 	align-items: center;
 	gap: 1rem;
 	margin-top: 2rem;
+}
+
+.categorySection {
+	position: relative;
+	margin-top: 8rem;
+	padding: 3rem;
+	border: 4px solid white;
+	border-radius: 0.5rem;
+}
+
+.categoryTitle {
+	color: #323f42;
+	font-size: 2.5rem;
+	margin: 4rem 0;
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	margin: 0;
+	padding: 0 15px;
+	background-color: #d5dee7;
 }

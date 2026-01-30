@@ -11,7 +11,13 @@ body {
 
 	background-image: radial-gradient(
 		circle,
-		transparent 20%,
+		transparent 60%,
 		rgba(92, 92, 92, 0.4) 100%
 	);
+}
+
+@media screen and (max-width: 1400px) {
+	body {
+		background-image: none;
+	}
 }
