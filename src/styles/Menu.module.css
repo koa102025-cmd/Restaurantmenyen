@@ -13,7 +13,7 @@
 
 .left,
 .right {
-	width: 15rem;
+	width: 20rem;
 
 	position: relative;
 	padding-top: 1.5rem;
@@ -52,7 +52,6 @@
 }
 
 .right {
-	width: 20rem;
 	color: #323f42;
 	text-align: right;
 }
